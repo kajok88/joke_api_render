@@ -12,7 +12,7 @@ app.use((req, res, next) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Kokeile näitä: /random_joke, /random_ten, /jokes/random, or /jokes/ten , /jokes/random/<any-number>');
+  res.send('Kokeile näitä: /count, /random_joke, /random_ten, /jokes/random, or /jokes/ten , /jokes/random/<any-number>');
 });
 
 app.get('/count', (req, res) => {

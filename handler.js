@@ -28,8 +28,6 @@ const randomN = (jokeArray, n) => {
   });
 };
 
-const jokeCount = () => jokes.length();
-
 const randomTen = () => randomN(jokes, 10);
 
 const randomSelect = (number) => randomN(jokes, number);
@@ -39,6 +37,8 @@ const jokeByType = (type, n) => {
 };
 
 const count = Object.keys(jokes).length;
+
+const jokeCount = {jokes : count};
 
 /** 
  * @param {Number} id - joke id
