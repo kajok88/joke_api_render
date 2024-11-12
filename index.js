@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/count', (req, res) => {
-  res.json(jokeCount());
+  res.json(jokeCount);
 });
 
 app.get('/ping', (req, res) => {
